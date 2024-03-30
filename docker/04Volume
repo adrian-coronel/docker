@@ -1,6 +1,6 @@
-docker ps
+docker ps // Ver contenedores
 docker stop www
-docker run -it --rm -d -p 8080:80 -v ./html:/usr/share/nginx/html --name www nginx
+docker run -it --rm -d -p 8080:80 -v ./html:/usr/share/nginx/html --name <my-user> nginx // Subir mi imagen al sevidor
 
 
 Dockerfile:
